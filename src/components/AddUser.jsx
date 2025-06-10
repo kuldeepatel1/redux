@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function AddUser({ onSave, onClose }) {
+const AddUser = ({ onSave, onClose }) => {
   const [form, setForm] = useState({
     name: "",
     email: "",

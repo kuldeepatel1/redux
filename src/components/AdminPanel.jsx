@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
-import EditUser from "./EditUser";
-import AddUser from "./AddUser";  // import here
+import React, { useEffect, useState } from "react";  // import here
+import Edituser from "./EditUser";
+import AddUser from "./AddUser";
 
 export default function AdminPanel() {
   const [users, setUsers] = useState([]);
@@ -122,7 +122,7 @@ export default function AdminPanel() {
 
       {/* Edit User Modal */}
       {showEditModal && (
-        <EditUser
+        <Edituser
           user={editedUser}
           onSave={handleSaveEdit}
           onClose={handleCancelEdit}
