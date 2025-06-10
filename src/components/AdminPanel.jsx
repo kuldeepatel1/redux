@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";  // import here
-import Edituser from "./EditUser";
+import Edituser from "./Edituser";
 import AddUser from "./AddUser";
 
 export default function AdminPanel() {
