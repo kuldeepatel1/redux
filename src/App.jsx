@@ -23,7 +23,6 @@ function App() {
       localStorage.setItem("users", JSON.stringify(users));
     }
   }, []);
-
   return (
     <Router>
       <Routes>
