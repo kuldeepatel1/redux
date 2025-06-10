@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import WelCome from "./components/WelCome";
+import WelcomeUser from "./components/WelcomeUser";
 import Register from "./components/Register";
 import Login from "./components/Login";
 import AdminPanel from "./components/AdminPanel";
@@ -26,7 +26,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<WelCome />} />
+        <Route path="/" element={<WelcomeUser />} />
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
         <Route path="/admin" element={<AdminPanel />} />
